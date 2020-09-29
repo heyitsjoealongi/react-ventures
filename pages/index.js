@@ -1,197 +1,49 @@
-import Head from 'next/head'
+import React, { Fragment } from 'react';
+import { Container, Row, Col } from 'reactstrap';
 
-import Example from '../components/Card'
+import Navigation from '../components/Navigation'
+import Buttons from '../components/Buttons'
 
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../styles/home.css';
 
 export default function Home() {
   return (
-    <div className="container my-5 py-5">
-      <Head>
-        <title>React Ventures</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <h1 className="title">
-          Welcome to <a href="https://nextjs.org">React Ventures</a>
-      </h1>
-
-      <p className="description">
-          Get started by editing <code>pages/index.js</code>
-      </p>
-
+    <>
+    
+      <Navigation />
+      
       <main>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-4">
-              <Example />
-            </div>
-            <div class="col-sm-4">
-              <Example />
-            </div>
-            <div class="col-sm-4">
-              <Example />
-            </div>
-          </div>
-        </div>
+        <Container className="py-5 my-5">
+
+          <Row noGutters className="v-align">
+
+            <Col xs={{ order: 1 }} md={{size: 7}}>
+              <img className="py-1" src="http://via.placeholder.com/150x150" alt=""></img>
+              <h1 className="display-3 py-2">React Ventures</h1>
+              <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </Col>
+            
+            <Col xs={{ order: 2 }} md={{size: 3}} className="hover-ist">
+              <ul className="list-unstyled">
+                <li>
+                 <a className="hover-est" href="/">👻 <span>Team</span></a>
+                </li>
+                <li>
+                 <a className="hover-est" href="/">💻 <span>Portfolio</span></a>
+                </li>
+                <li>
+                 <a className="hover-est" href="/">🖖🏻 <span>Contact</span></a>
+                </li>
+              </ul>
+            </Col>
+
+          </Row>
+
+        </Container>
       </main>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-        </a>
-      </footer>
-
-      <style jsx>{`
-        .container {
-          min-height: 100vh;
-          padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        a {
-          color: inherit;
-          text-decoration: none;
-        }
-
-        .title a {
-          color: #0070f3;
-          text-decoration: none;
-        }
-
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
-        }
-
-        .title {
-          margin: 0;
-          line-height: 1.15;
-          font-size: 4rem;
-        }
-
-        .title,
-        .description {
-          text-align: center;
-        }
-
-        .description {
-          line-height: 1.5;
-          font-size: 1.5rem;
-        }
-
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-
-        .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          max-width: 800px;
-          margin-top: 3rem;
-        }
-
-        .card {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          color: inherit;
-          text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
-        }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
-        }
-
-        .card h3 {
-          margin: 0 0 1rem 0;
-          font-size: 1.5rem;
-        }
-
-        .card p {
-          margin: 0;
-          font-size: 1.25rem;
-          line-height: 1.5;
-        }
-
-        .logo {
-          height: 1em;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
-    </div>
+    </>
   )
 }
