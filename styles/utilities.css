@@ -1,0 +1,69 @@
+/* Navigation */
+.hover-er a {
+    font-weight: 600;
+    text-transform: lowercase;
+    padding: 10px;
+    width: 100%;
+    display: block;
+    transition: background-color 0.5s ease;
+}
+
+.hover-er a:hover {
+    color: #ffffff;
+    background-color: #0062E6; /* 10% Darker Than Primary */
+    padding: 10px;
+    border-radius: 1px;
+    text-decoration: none;
+}
+
+Navbar a:hover {
+    text-decoration: none;
+}
+
+/* Sidegation */
+.hover-ist {
+    margin: 200px 0 10px 0;
+}
+.hover-ist li{
+    margin: 10px 50px;
+}
+.hover-ist a{
+    font-weight: 600;
+    text-transform: lowercase;
+    padding: 10px;
+    width: 100%;
+    display: block;
+    transition: background-color 0.5s ease;
+}
+.hover-ist a:hover {
+    color: #ffffff;
+    background-color: #007bff; /* Primary */
+    padding: 10px;
+    border-radius: 1px;
+    text-decoration: none;
+}
+.hover-ist span {
+    text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    .hover-ist {
+        margin: 50px 0;    
+    }
+    .hover-ist li{
+        margin: 10px 0;
+    }
+}
+
+/* Universal */
+
+::selection {
+    background: #0062E6; /* 10% Darker Than Primary */
+}
+::-moz-selection {
+    background: #0062E6; /* 10% Darker Than Primary */
+}
+
+a:hover{
+    text-decoration: none;
+}
