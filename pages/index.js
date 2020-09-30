@@ -1,8 +1,8 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 import Navigation from '../components/Navigation'
-import Buttons from '../components/Buttons'
+import Sidegation from '../components/Sidegation'
 
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../styles/home.css';
@@ -26,17 +26,7 @@ export default function Home() {
             </Col>
             
             <Col xs={{ order: 2 }} md={{size: 3}} className="hover-ist">
-              <ul className="list-unstyled">
-                <li>
-                 <a className="hover-est" href="/">👻 <span>Team</span></a>
-                </li>
-                <li>
-                 <a className="hover-est" href="/">💻 <span>Portfolio</span></a>
-                </li>
-                <li>
-                 <a className="hover-est" href="/">🖖🏻 <span>Contact</span></a>
-                </li>
-              </ul>
+              <Sidegation />
             </Col>
 
           </Row>
