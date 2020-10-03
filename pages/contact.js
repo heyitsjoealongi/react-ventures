@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
-import Navigation from '../components/Navigation'
+import Navigation from '../components/Navigation';
 
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../styles/utilities.css';
