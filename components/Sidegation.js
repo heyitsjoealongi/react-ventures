@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
 function Sidegation() {
   return (
@@ -22,4 +22,4 @@ function Sidegation() {
   )
 }
 
-export default Sidegation
+export default Sidegation;

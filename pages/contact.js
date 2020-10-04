@@ -1,31 +1,45 @@
+/* Framework */
 import React from 'react';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
+/* Bootstrap Components */
 import { Container, Row, Col } from 'reactstrap';
 
+/* Components */
 import Navigation from '../components/Navigation';
+import Button from '../components/Button';
 
-import '../node_modules/bootstrap/dist/css/bootstrap.css';
+/* Styles */
+import '../styles/theme.css';
 import '../styles/utilities.css';
 
-export default function Contact() {
+export default function Team() {
   return (
     <>
-    
+
       <Navigation />
       
       <main>
-        <Container className="py-5 my-5">
+          <Container className="py-5 my-5">
 
-          <Row noGutters className="v-align">
+            <Row noGutters>
 
-            <Col xs={{ order: 1 }} md={{size: 12}}>
-              
-            </Col>
+              <Col lg={{size: 9}}>
+                <h2 className="display-4 py-2">🖖🏻 Contact</h2>
+              </Col>
 
-          </Row>
+            </Row>
 
-        </Container>
-      </main>
+            <Row noGutters>
 
+              <Col lg={{size: 9}}>
+                <Button />
+              </Col>
+
+            </Row>
+
+          </Container>
+        </main>
 
     </>
   )
