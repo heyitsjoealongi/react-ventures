@@ -9,7 +9,7 @@ class ContactButton extends React.Component {
            links :[
                {
                 title:"Contact",
-                link:"/"
+                link:"/contact"
                },
            ]
        }
@@ -23,7 +23,7 @@ class ContactButton extends React.Component {
             {links.map((data) => (
             <div className="py-2 hover-ing">
               <Link href={data.link}>
-                <a target="_blank">
+                <a>
                 🖖🏻 <span>{data.title}</span>
                 </a>
               </Link>
