@@ -11,47 +11,47 @@ class PortfolioItem extends React.Component {
        this.state ={
            projects :[
                {
-                image:"brand-placeholder.png",
+                image:"/brand-placeholder.png",
                 title:"Project One",
                 subtitle:"Venture",
                 button:"/portfolio/project-one"
                },
                {
-                image:"brand-placeholder.png",
+                image:"/brand-placeholder.png",
                 title:"Project Two",
                 subtitle:"Venture",
                 button:"/portfolio/project-one"
                },
                {
-                image:"brand-placeholder.png",
+                image:"/brand-placeholder.png",
                 title:"Project Three",
                 subtitle:"Venture",
                 button:"/portfolio/project-one"
                },
                {
-                image:"brand-placeholder.png",
+                image:"/brand-placeholder.png",
                 title:"Project Four",
                 subtitle:"Venture",
                 button:"/portfolio/project-one"
                },
                {
-                image:"brand-placeholder.png",
+                image:"/brand-placeholder.png",
                 title:"Project Five",
                 subtitle:"Venture",
                 button:"/portfolio/project-one"
                },
                {
-                image:"brand-placeholder.png",
+                image:"/brand-placeholder.png",
                 title:"Project Six",
                 subtitle:"Venture",
                 button:"/portfolio/project-one"
-               },
+               }
            ]
        }
     }
 
     render() {
-        const { projects } = this.state;
+        const {projects} = this.state;
 
         return (
           <>

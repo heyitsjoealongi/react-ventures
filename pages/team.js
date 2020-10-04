@@ -7,7 +7,7 @@ import {Container, Row, Col} from 'reactstrap';
 
 /* Components */
 import Navigation from '../components/Navigation';
-import Button from '../components/Button';
+import ContactButton from '../components/ContactButton';
 
 /* Styles */
 import '../styles/theme.css';
@@ -27,7 +27,7 @@ export default function Team() {
               <Col lg={{size: 9}}>
                 <h2 className="display-4 py-2">🦄 Team</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <Button />
+                <ContactButton />
               </Col>
 
             </Row>
