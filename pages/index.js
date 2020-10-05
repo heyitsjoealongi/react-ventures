@@ -8,6 +8,7 @@ import {Container, Row, Col} from 'reactstrap';
 /* Components */
 import Navigation from '../components/Navigation';
 import Sidegation from '../components/Sidegation';
+import Meta from '../components/Meta';
 
 /* Styles */
 import '../styles/theme.css';
@@ -19,7 +20,7 @@ import Brand from '../public/brand.svg';
 export default function Home() {
   return (
     <>
-    
+      <Meta />
       <Navigation />
       
       <main>
