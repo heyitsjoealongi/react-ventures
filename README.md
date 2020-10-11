@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-This is a template built from next starter [Learn Next.js](https://nextjs.org/learn).
-=======
 ![React Ventures Banner](https://raw.githubusercontent.com/collectedview/react-ventures/master/public/brand-placeholder.png)
 
 # React Ventures
@@ -127,4 +124,4 @@ Having an issue with the template? Report bugs & issues with Purple on GitHub vi
 ##### License
 
 © 2020 React Ventures released via [MIT](https://opensource.org/licenses/MIT) license. Information on this license can be viewed as it applies to this repository on GitHub at [React Ventures License](https://github.com/collectedview/react-ventures/blob/master/LICENSE).
->>>>>>> Stashed changes
+

@@ -6,14 +6,9 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import { Container, Row, Col } from "reactstrap";
 
 /* Components */
-<<<<<<< Updated upstream
-import Navigation from '../components/Navigation';
-import Sidegation from '../components/Sidegation';
-=======
 import Navigation from "../components/Navigation";
 import Sidegation from "../components/Sidegation";
 import Meta from "../components/Meta";
->>>>>>> Stashed changes
 
 /* Styles */
 import "../styles/theme.css";
@@ -25,7 +20,7 @@ import Brand from "../public/brand.svg";
 export default function Home() {
   return (
     <>
-    
+      <Meta />
       <Navigation />
 
       <main>
