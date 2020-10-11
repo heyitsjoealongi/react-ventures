@@ -1,6 +1,6 @@
 {
   "name": "react-ventures",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -34,6 +34,12 @@
   },
   "homepage": "https://github.com/collectedview/react-ventures#readme",
   "keywords": [
-    "react", "next", "javascript", "css", "boilerplate", "web", "responsive"
+    "react",
+    "next",
+    "javascript",
+    "css",
+    "boilerplate",
+    "web",
+    "responsive"
   ]
 }

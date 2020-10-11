@@ -2,7 +2,7 @@
 
 # React Ventures
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000) [![License: MIT ](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/collectedview/react-ventures/blob/master/LICENSE) ![GitHub stars](https://img.shields.io/github/stars/collectedview/react-ventures?style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/collectedview?label=Follow&style=social)
+![Version](https://img.shields.io/badge/version-1.0.4-blue.svg?cacheSeconds=2592000) [![License: MIT ](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/collectedview/react-ventures/blob/master/LICENSE) ![GitHub stars](https://img.shields.io/github/stars/collectedview/react-ventures?style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/collectedview?label=Follow&style=social)
 
 React Ventures for building applications in React.js with Bootstrap utilizing the [Next.js](https://vercel.com/) framework (Vercel) for simplified [Node.js](https://nodejs.org/en/) configuration available by [Open Source](https://opensource.org/).
 
@@ -44,7 +44,7 @@ React Ventures is built with modern frontend frameworks and adapts to screen siz
 This project runs on Node.js while the DOM UI elements are established using React.js with modules from Bootstrap, Reactstrap while working within the Next.js framework.
 
 - React (v16.13.1)
-- Next (v9.5.3)
+- Next (v9.5.5)
 - Node (v14.13.0)
 - Bootstrap (v4.5.2)
 - Reactstrap (v8.6.0)
