@@ -1,6 +1,7 @@
 /* Framework */
 import React from "react";
 import Link from "next/link";
+import Image from 'next/image';
 
 /* Bootstrap Components */
 import {
@@ -9,8 +10,7 @@ import {
   CardBody,
   CardTitle,
   CardSubtitle,
-  Button,
-  Col,
+  Button
 } from "reactstrap";
 
 const PortfolioItem = (data) => (
