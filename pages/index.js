@@ -1,6 +1,5 @@
 /* Framework */
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
 
 /* Bootstrap Components */
 import { Container, Row, Col } from "reactstrap";
@@ -9,10 +8,6 @@ import { Container, Row, Col } from "reactstrap";
 import Navigation from "../components/Navigation";
 import Sidegation from "../components/Sidegation";
 import Meta from "../components/Meta";
-
-/* Styles */
-import "../styles/theme.css";
-import "../styles/utilities.css";
 
 /* SVG */
 import Brand from "../public/brand.svg";

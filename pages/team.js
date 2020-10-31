@@ -1,6 +1,5 @@
 /* Framework */
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
 
 /* Bootstrap Components */
 import { Container, Row, Col } from "reactstrap";
@@ -8,10 +7,6 @@ import { Container, Row, Col } from "reactstrap";
 /* Components */
 import Navigation from "../components/Navigation";
 import Buttons from "../components/Buttons";
-
-/* Styles */
-import "../styles/theme.css";
-import "../styles/utilities.css";
 
 class Contact extends React.Component {
   constructor(props) {

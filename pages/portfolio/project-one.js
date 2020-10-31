@@ -1,18 +1,13 @@
 /* Framework */
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
 
 /* Bootstrap Components */
-import { Container, Row, Col} from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 /* Components */
 import Navigation from "../../components/Navigation";
 import Headers from "../../components/portfolio/Headers";
 import ProjectContent from "../../components/portfolio/ProjectContent";
-
-/* Styles */
-import "../../styles/theme.css";
-import "../../styles/utilities.css";
 
 class ProjectOne extends React.Component {
   constructor(props) {

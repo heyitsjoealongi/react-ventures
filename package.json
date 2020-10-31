@@ -18,7 +18,7 @@
     "reactstrap": "^8.6.0"
   },
   "devDependencies": {
-    "prettier": "2.1.2"
+    "prettier": "^2.1.2"
   },
   "image": "![React Ventures Banner](https://raw.githubusercontent.com/collectedview/react-ventures/master/public/brand-placeholder.png)",
   "description": "React Ventures for building applications in React.js with Bootstrap utilizing the Next.js framework (Vercel) for simplified Node.js configuration available by Open Source.",

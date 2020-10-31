@@ -9,28 +9,28 @@
 /* Bootstrap Overwrites */
 
 .container-fluid {
-  padding: 0;
+  padding: 0 !important;
 }
 
 .lead {
   color: #007bff; /* Primary */
-  font-size: 1.6em;
-  font-weight: 600;
+  font-size: 1.6em !important;
+  font-weight: 600 !important;
 }
 
 .card-img,
 .card-img-top {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
 }
 
 .jumbotron {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
 }
 
 /* Global */
