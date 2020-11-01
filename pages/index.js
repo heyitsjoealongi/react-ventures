@@ -5,9 +5,10 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 /* Components */
+import Loader from "../components/Loader";
+import Meta from "../components/Meta";
 import Navigation from "../components/Navigation";
 import Sidegation from "../components/Sidegation";
-import Meta from "../components/Meta";
 
 /* SVG */
 import Brand from "../public/brand.svg";
@@ -15,6 +16,7 @@ import Brand from "../public/brand.svg";
 export default function Home() {
   return (
     <>
+      <Loader />
       <Meta />
       <Navigation />
 

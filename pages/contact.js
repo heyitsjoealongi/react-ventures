@@ -5,6 +5,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 /* Components */
+import Loader from "../components/Loader";
 import Navigation from "../components/Navigation";
 import Buttons from "../components/Buttons";
 
@@ -37,6 +38,7 @@ class Contact extends React.Component {
 
     return (
       <>
+        <Loader />
         <Navigation />
 
         <main>

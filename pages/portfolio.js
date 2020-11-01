@@ -5,6 +5,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 /* Components */
+import Loader from "../components/Loader";
 import Navigation from "../components/Navigation";
 import PortfolioItem from "../components/PortfolioItem";
 
@@ -58,6 +59,7 @@ class Portfolio extends React.Component {
 
     return (
       <>
+        <Loader />
         <Navigation />
 
         <main>
