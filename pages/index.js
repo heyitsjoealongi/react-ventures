@@ -1,18 +1,14 @@
 /* Framework */
 import React from "react";
-import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
 /* Bootstrap Components */
 import { Container, Row, Col } from "reactstrap";
 
 /* Components */
+import Loader from "../components/Loader";
+import Meta from "../components/Meta";
 import Navigation from "../components/Navigation";
 import Sidegation from "../components/Sidegation";
-import Meta from "../components/Meta";
-
-/* Styles */
-import "../styles/theme.css";
-import "../styles/utilities.css";
 
 /* SVG */
 import Brand from "../public/brand.svg";
@@ -20,6 +16,7 @@ import Brand from "../public/brand.svg";
 export default function Home() {
   return (
     <>
+      <Loader />
       <Meta />
       <Navigation />
 

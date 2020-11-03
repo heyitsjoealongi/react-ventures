@@ -1,24 +1,24 @@
 {
   "name": "react-ventures",
-  "version": "1.0.3",
+  "version": "1.0.9",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "@popperjs/core": "^2.5.3",
+    "@popperjs/core": "^2.5.4",
     "@svgr/webpack": "^5.4.0",
-    "@zeit/next-css": "^1.0.1",
-    "bootstrap": "^4.5.2",
+    "bootstrap": "^4.5.3",
     "jquery": "^3.5.1",
-    "next": "9.5.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "reactstrap": "^8.6.0"
+    "next": "10.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-loader-spinner": "^3.1.14",
+    "reactstrap": "^8.7.0"
   },
   "devDependencies": {
-    "prettier": "2.1.2"
+    "prettier": "^2.1.2"
   },
   "image": "![React Ventures Banner](https://raw.githubusercontent.com/collectedview/react-ventures/master/public/brand-placeholder.png)",
   "description": "React Ventures for building applications in React.js with Bootstrap utilizing the Next.js framework (Vercel) for simplified Node.js configuration available by Open Source.",
@@ -34,6 +34,12 @@
   },
   "homepage": "https://github.com/collectedview/react-ventures#readme",
   "keywords": [
-    "react", "next", "javascript", "css", "boilerplate", "web", "responsive"
+    "react",
+    "next",
+    "javascript",
+    "css",
+    "boilerplate",
+    "web",
+    "responsive"
   ]
 }
