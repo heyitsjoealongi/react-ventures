@@ -2,7 +2,7 @@
 
 # React Ventures
 
-![Version](https://img.shields.io/badge/version-1.0.9-blue.svg?cacheSeconds=2592000) [![License: MIT ](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/collectedview/react-ventures/blob/master/LICENSE) ![GitHub stars](https://img.shields.io/github/stars/collectedview/react-ventures?style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/collectedview?label=Follow&style=social)
+![Version](https://img.shields.io/badge/version-1.1.0-blue.svg?cacheSeconds=2592000) [![License: MIT ](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/collectedview/react-ventures/blob/master/LICENSE) ![GitHub stars](https://img.shields.io/github/stars/collectedview/react-ventures?style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/collectedview?label=Follow&style=social)
 
 React Ventures for building applications in React.js with Bootstrap utilizing the [Next.js](https://vercel.com/) framework (Vercel) for simplified [Node.js](https://nodejs.org/en/) configuration available by [Open Source](https://opensource.org/).
 

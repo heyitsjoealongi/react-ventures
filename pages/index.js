@@ -18,9 +18,10 @@ export default function Home() {
     <>
       <Loader />
       <Meta />
-      <Navigation />
 
       <main>
+        <Navigation />
+
         <Container className="py-5 my-5">
           <Row noGutters className="v-align">
             <Col lg={{ size: 9 }}>

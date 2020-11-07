@@ -29,9 +29,10 @@ class Contact extends React.Component {
     return (
       <>
         <Loader />
-        <Navigation />
 
         <main>
+          <Navigation />
+
           <Container className="py-5 my-5">
             <Row noGutters>
               <Col lg={{ size: 9 }}>
