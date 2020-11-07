@@ -13,7 +13,7 @@ export default function Loading() {
         color="#007bff" /* Primary */
         height={200}
         width={200}
-        timeout={2000}
+        timeout={1000}
       />
     </>
   );

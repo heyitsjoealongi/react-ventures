@@ -5,7 +5,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 /* Components */
-import Loader from "../components/Loader";
+import Loader from "../utilities/loader/Loader";
 import Navigation from "../components/Navigation";
 import Buttons from "../components/Buttons";
 
@@ -29,9 +29,10 @@ class Contact extends React.Component {
     return (
       <>
         <Loader />
-        <Navigation />
 
         <main>
+          <Navigation />
+
           <Container className="py-5 my-5">
             <Row noGutters>
               <Col lg={{ size: 9 }}>

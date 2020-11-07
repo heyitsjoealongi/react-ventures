@@ -5,7 +5,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 /* Components */
-import Loader from "../components/Loader";
+import Loader from "../utilities/loader/Loader";
 import Meta from "../components/Meta";
 import Navigation from "../components/Navigation";
 import Sidegation from "../components/Sidegation";
@@ -18,9 +18,10 @@ export default function Home() {
     <>
       <Loader />
       <Meta />
-      <Navigation />
 
       <main>
+        <Navigation />
+
         <Container className="py-5 my-5">
           <Row noGutters className="v-align">
             <Col lg={{ size: 9 }}>
