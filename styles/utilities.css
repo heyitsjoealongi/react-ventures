@@ -67,6 +67,10 @@ body.dark-mode {
   color: #fff;
 }
 
+hr.darkmode {
+  color: #fff;
+}
+
 /* Dark Mode Toggle */
 
 .switch {
