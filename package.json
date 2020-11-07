@@ -15,7 +15,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-loader-spinner": "^3.1.14",
-    "reactstrap": "^8.7.0"
+    "reactstrap": "^8.7.0",
+    "use-dark-mode": "^2.3.1"
   },
   "devDependencies": {
     "prettier": "^2.1.2"
