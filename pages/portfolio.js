@@ -15,36 +15,42 @@ class Portfolio extends React.Component {
     this.state = {
       projects: [
         {
+          id: "0",
           image: "/brand-placeholder.png",
           title: "Project One",
           subtitle: "Venture",
           href: "/portfolio/project-one",
         },
         {
+          id: "2",
           image: "/brand-placeholder.png",
           title: "Project Two",
           subtitle: "Venture",
           href: "/portfolio/project-one",
         },
         {
+          id: "3",
           image: "/brand-placeholder.png",
           title: "Project Three",
           subtitle: "Venture",
           href: "/portfolio/project-one",
         },
         {
+          id: "4",
           image: "/brand-placeholder.png",
           title: "Project Four",
           subtitle: "Venture",
           href: "/portfolio/project-one",
         },
         {
+          id: "5",
           image: "/brand-placeholder.png",
           title: "Project Five",
           subtitle: "Venture",
           href: "/portfolio/project-one",
         },
         {
+          id: "6",
           image: "/brand-placeholder.png",
           title: "Project Six",
           subtitle: "Venture",
@@ -74,6 +80,7 @@ class Portfolio extends React.Component {
               {projects.map((data) => (
                 <Col lg={{ size: 4 }}>
                   <PortfolioItem
+                    key={data.id}
                     image={data.image}
                     title={data.title}
                     subtitle={data.subtitle}
