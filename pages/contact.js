@@ -1,38 +1,71 @@
 /* Framework */
 import React from "react";
-import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
 /* Bootstrap Components */
 import { Container, Row, Col } from "reactstrap";
 
 /* Components */
+import Loader from "../utilities/loader/Loader";
 import Navigation from "../components/Navigation";
-import ContactButtons from "../components/ContactButtons";
+import Buttons from "../components/Buttons";
 
-/* Styles */
-import "../styles/theme.css";
-import "../styles/utilities.css";
+class Contact extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      links: [
+        {
+          emoji: "🔗",
+          title: "LinkedIn",
+          link: "/",
+        },
+        {
+          emoji: "🔗",
+          title: "Twitter",
+          link: "/",
+        },
+        {
+          emoji: "🔗",
+          title: "Email",
+          link: "/",
+        },
+      ],
+    };
+  }
 
-export default function Team() {
-  return (
-    <>
-      <Navigation />
+  render() {
+    const { links } = this.state;
 
-      <main>
-        <Container className="py-5 my-5">
-          <Row noGutters>
-            <Col lg={{ size: 9 }}>
-              <h2 className="display-4 py-2">🖖🏻 Contact</h2>
-            </Col>
-          </Row>
+    return (
+      <>
+        <Loader />
 
-          <Row noGutters>
-            <Col lg={{ size: 9 }}>
-              <ContactButtons />
-            </Col>
-          </Row>
-        </Container>
-      </main>
-    </>
-  );
+        <main>
+          <Navigation />
+
+          <Container className="py-5 my-5">
+            <Row noGutters>
+              <Col lg={{ size: 9 }}>
+                <h2 className="display-4 py-2">🖖🏻 Contact</h2>
+              </Col>
+            </Row>
+
+            <Row noGutters>
+              <Col lg={{ size: 9 }}>
+                {links.map((data) => (
+                  <Buttons
+                    emoji={data.emoji}
+                    title={data.title}
+                    link={data.link}
+                  />
+                ))}
+              </Col>
+            </Row>
+          </Container>
+        </main>
+      </>
+    );
+  }
 }
+
+export default Contact;
