@@ -1,23 +1,14 @@
 /* Framework */
 import React from "react";
-import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
 /* Bootstrap Components */
 import { Container, Row, Col } from "reactstrap";
 
 /* Components */
-<<<<<<< Updated upstream
-import Navigation from '../components/Navigation';
-import Sidegation from '../components/Sidegation';
-=======
+import Loader from "../utilities/loader/Loader";
+import Meta from "../components/Meta";
 import Navigation from "../components/Navigation";
 import Sidegation from "../components/Sidegation";
-import Meta from "../components/Meta";
->>>>>>> Stashed changes
-
-/* Styles */
-import "../styles/theme.css";
-import "../styles/utilities.css";
 
 /* SVG */
 import Brand from "../public/brand.svg";
@@ -25,10 +16,12 @@ import Brand from "../public/brand.svg";
 export default function Home() {
   return (
     <>
-    
-      <Navigation />
+      <Loader />
+      <Meta />
 
       <main>
+        <Navigation />
+
         <Container className="py-5 my-5">
           <Row noGutters className="v-align">
             <Col lg={{ size: 9 }}>
