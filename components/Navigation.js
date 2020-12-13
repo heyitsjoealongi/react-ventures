@@ -1,7 +1,10 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
 import React, { useState } from 'react';
 import { Navbar, NavbarBrand } from 'reactstrap';
+
+/* SVG */
+import Brand from '../public/brand.svg';
 
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +15,11 @@ const Navigation = (props) => {
     <div>
       <Navbar color="primary" dark expand="md">
         <Link href="/">
-          <a className="hover-er"><NavbarBrand><img className="py-1" src="http://via.placeholder.com/25x25" alt=""></img> React Ventures</NavbarBrand></a>
+          <a className="hover-er">
+            <NavbarBrand>
+              <Brand className="icon"/> <span>React Ventures</span>
+            </NavbarBrand>
+          </a>
         </Link>
       </Navbar>
     </div>

@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@svgr/webpack": "^5.4.0",
     "@zeit/next-css": "^1.0.1",
     "bootstrap": "^4.5.2",
     "next": "9.5.3",

@@ -1,80 +1,32 @@
-/* Navigation */
-.hover-er a {
+/* Adjustment Layers */
+
+.v-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Bootstrap Overwrites */
+
+.container-fluid {
+    padding: 0;
+}
+
+.lead {
+    color:#007bff; /* Primary */
+    font-size: 1.6em;
     font-weight: 600;
-    text-transform: lowercase;
-    padding: 10px;
-    width: 100%;
-    display: block;
-    transition: background-color 0.5s ease;
 }
 
-.hover-er a:hover {
-    color: #ffffff;
-    background-color: #0062E6; /* 10% Darker Than Primary */
-    padding: 10px;
-    border-radius: 1px;
+/* Global */
+
+::selection {
+    background: #0062E6; /* 10% Darker Than Primary */
+}
+::-moz-selection {
+    background: #0062E6; /* 10% Darker Than Primary */
+}
+
+a:hover{
     text-decoration: none;
-}
-
-.navbar a:hover {
-    text-decoration: none;
-}
-
-/* Sidegation */
-.hover-ist {
-    margin: 200px 0 10px 0;
-}
-.hover-ist li{
-    margin: 10px 50px;
-}
-.hover-ist a{
-    font-weight: 600;
-    text-transform: lowercase;
-    padding: 10px;
-    width: 100%;
-    display: block;
-    transition: background-color 0.5s ease;
-}
-.hover-ist a:hover {
-    color: #ffffff;
-    background-color: #007bff; /* Primary */
-    padding: 10px;
-    border-radius: 1px;
-    text-decoration: none;
-}
-.hover-ist span {
-    text-decoration: underline;
-}
-
-@media (max-width: 800px) {
-    .hover-ist {
-        margin: 50px 0;    
-    }
-    .hover-ist li{
-        margin: 10px 0;
-    }
-}
-
-/* Button */
-
-.hover-ing a {
-    font-weight: 600;
-    text-transform: lowercase;
-    border: 1px solid;
-    padding: 10px;
-    width: 100%;
-    display: block;
-    transition: background-color 0.5s ease;
-}
-
-.hover-ing a:hover {
-    color: #ffffff;
-    background-color: #007bff; /* Primary */
-    padding: 10px;
-    border-radius: 1px;
-    text-decoration: none;
-}
-
-.hover-ing span {
-    text-decoration: underline;
 }
