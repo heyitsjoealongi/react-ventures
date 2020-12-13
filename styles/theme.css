@@ -1,0 +1,266 @@
+/* React Ventures Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-display: auto;
+  font-style: normal;
+  -webkit-font-smoothing: auto;
+  -moz-font-smoothing: auto;
+  -ms-font-smoothing: auto;
+  -o-font-smoothing: auto;
+  font-smooth: auto;
+  font-size: 18px;
+  line-height: 1;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  -webkit-scroll-behavior: smooth;
+  -moz-scroll-behavior: smooth;
+  -ms-scroll-behavior: smooth;
+  -o-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  -webkit-scrollbar-width: thin;
+  -moz-scrollbar-width: thin;
+  -ms-scrollbar-width: thin;
+  -o-scrollbar-width: thin;
+  scrollbar-width: thin;
+  appearance: none;
+}
+
+main {
+  display: block;
+  position: relative;
+  z-index: 100;
+  width: 100vw;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+a,
+button {
+  text-decoration: none;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+::selection {
+  background: #61dafb;
+  opacity: 40%;
+}
+
+.company {
+  padding: 2em !important;
+  border: 1px solid #61dafb !important; /* Primary */
+}
+
+.navbar span {
+  text-transform: initial;
+}
+
+/* Navigation */
+
+.hover-er a {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-weight: 600;
+  text-transform: initial;
+
+  padding: 0.6em 0.9em;
+  margin: 0.5rem 1rem;
+  transition: background-color 0.5s ease !important;
+}
+
+.hover-er a img {
+  flex: 1;
+  display: inline-block;
+  margin: 0 0.9em 0 0 !important;
+}
+
+.hover-er a span {
+  flex: 1;
+  display: inline-block;
+}
+
+.hover-er a:hover {
+  color: #fff;
+  background-color: #48c1e2; /* 10% Darker Than Primary */
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
+
+/* Sidegation */
+
+.hover-ist {
+  margin: 200px 0 10px 0;
+}
+
+.hover-ist li {
+  margin: 10px 50px;
+}
+
+.hover-ist a {
+  font-weight: 600;
+  text-transform: initial;
+  padding: 0.6em;
+  width: 100%;
+  display: block;
+  transition: background-color 0.5s ease;
+}
+
+.hover-ist a:hover {
+  color: #fff;
+  background-color: #61dafb; /* Primary */
+  text-decoration: none;
+}
+
+.hover-ist span {
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .hover-ist {
+    margin: 50px 0;
+  }
+  .hover-ist li {
+    margin: 10px 0;
+  }
+}
+
+/* Button */
+
+.hover-ing a {
+  font-weight: 600;
+  text-transform: initial;
+  border: 1px solid #61dafb; /* Primary */
+  padding: 0.6em;
+  width: 100%;
+  display: block;
+  transition: background-color 0.5s ease;
+}
+
+.hover-ing a:hover {
+  color: #fff;
+  border: 1px solid #61dafb; /* Primary */
+  background-color: #61dafb; /* Primary */
+  text-decoration: none;
+}
+
+.hover-ing span {
+  text-decoration: underline;
+}
+
+/* Portfolio */
+
+.portfolio {
+  border-top: 1px solid#61DAFB; /* Primary */
+}
+
+.cards {
+  border: 1px solid #61dafb; /* Primary */
+  margin: 0.6em;
+  border-radius: 0 !important;
+}
+
+.cards h4 {
+  color: #000;
+}
+
+.cards .sub-one {
+  font-size: 0.6em;
+  width: 100px;
+  padding: 0.6em;
+  text-align: center;
+  color: #fff;
+  background-color: #282c34; /* Secondary */
+  display: block;
+  float: left;
+}
+
+.cards .clicking {
+  color: #61dafb; /* Primary */
+  background-color: #fff;
+  font-weight: 600;
+  text-transform: initial;
+  text-align: left;
+  border: 1px solid #61dafb; /* Primary */
+  border-radius: 0 !important;
+  padding: 0.6em;
+  width: 100%;
+  display: block;
+  transition: background-color 0.5s ease;
+}
+
+.cards .clicking:hover {
+  color: #fff;
+  border: 1px solid #61dafb; /* Primary */
+  background-color: #61dafb; /* Primary */
+  text-decoration: none;
+}
+
+.cards .clicking span {
+  text-decoration: underline;
+}
+
+/* Portfolio Project */
+
+.hero {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: auto;
+  padding: 3em 0.3em;
+  overflow: hidden;
+  opacity: 1;
+}
+
+.hero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(
+    to bottom,
+    #282c34,
+    #61dafb
+  ); /* Secondary -> Primary */
+  opacity: 0.2;
+}
+
+.hero .title {
+  color: #fff;
+  padding: 50px;
+}
+
+.content {
+  padding: 3em 0.3em;
+}
