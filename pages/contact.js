@@ -7,7 +7,7 @@ import {Container, Row, Col} from 'reactstrap';
 
 /* Components */
 import Navigation from '../components/Navigation';
-import Button from '../components/Button';
+import ContactButtons from '../components/ContactButtons';
 
 /* Styles */
 import '../styles/theme.css';
@@ -33,7 +33,7 @@ export default function Team() {
             <Row noGutters>
 
               <Col lg={{size: 9}}>
-                <Button />
+                <ContactButtons />
               </Col>
 
             </Row>

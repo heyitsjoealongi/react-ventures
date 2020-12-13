@@ -1,37 +1,47 @@
 /* Adjustment Layers */
 
 .v-align {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* Bootstrap Overwrites */
 
 .container-fluid {
-    padding: 0;
+	padding: 0;
 }
 
 .lead {
-    color:#007bff; /* Primary */
-    font-size: 1.6em;
-    font-weight: 600;
+	color: #007bff;
+	/* Primary */
+	font-size: 1.6em;
+	font-weight: 600;
 }
 
 .card-img, .card-img-top {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
 }
+
+.jumbotron {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
 
 /* Global */
 
 ::selection {
-    background: #0062E6; /* 10% Darker Than Primary */
-}
-::-moz-selection {
-    background: #0062E6; /* 10% Darker Than Primary */
+	background: #0062E6;
+	/* 10% Darker Than Primary */
 }
 
-a:hover{
-    text-decoration: none;
+::-moz-selection {
+	background: #0062E6;
+	/* 10% Darker Than Primary */
+}
+
+a:hover {
+	text-decoration: none;
 }
