@@ -5,7 +5,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 /* Components */
-import Loader from "../../components/Loader";
+import Loader from "../../utilities/loader/Loader";
 import Navigation from "../../components/Navigation";
 import Headers from "../../components/portfolio/Headers";
 import ProjectContent from "../../components/portfolio/ProjectContent";

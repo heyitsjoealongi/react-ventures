@@ -1,6 +1,6 @@
 {
   "name": "react-ventures",
-  "version": "1.0.9",
+  "version": "1.1.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,10 +15,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-loader-spinner": "^3.1.14",
-    "reactstrap": "^8.7.0"
-  },
-  "devDependencies": {
-    "prettier": "^2.1.2"
+    "reactstrap": "^8.7.0",
+    "use-dark-mode": "^2.3.1"
   },
   "image": "![React Ventures Banner](https://raw.githubusercontent.com/collectedview/react-ventures/master/public/brand-placeholder.png)",
   "description": "React Ventures for building applications in React.js with Bootstrap utilizing the Next.js framework (Vercel) for simplified Node.js configuration available by Open Source.",

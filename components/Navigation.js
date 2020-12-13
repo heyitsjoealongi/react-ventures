@@ -4,6 +4,7 @@ import React, { useState } from "react";
 
 /* Components */
 import { Navbar, NavbarBrand } from "reactstrap";
+import DarkMode from "../utilities/darkmode/DarkMode";
 
 /* SVG */
 import Brand from "../public/brand.svg";
@@ -23,6 +24,7 @@ const Navigation = (props) => {
             </NavbarBrand>
           </a>
         </Link>
+        <DarkMode />
       </Navbar>
     </div>
   );
