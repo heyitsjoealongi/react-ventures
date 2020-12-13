@@ -1,10 +1,10 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-import React, { useState } from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
+import React, { useState } from "react";
+import { Navbar, NavbarBrand } from "reactstrap";
 
 /* SVG */
-import Brand from '../public/brand.svg';
+import Brand from "../public/brand.svg";
 
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,13 +17,13 @@ const Navigation = (props) => {
         <Link href="/">
           <a className="hover-er">
             <NavbarBrand>
-              <Brand className="icon"/> <span>React Ventures</span>
+              <Brand className="icon" /> <span>React Ventures</span>
             </NavbarBrand>
           </a>
         </Link>
       </Navbar>
     </div>
   );
-}
+};
 
 export default Navigation;
