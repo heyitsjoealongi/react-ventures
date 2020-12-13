@@ -12,7 +12,7 @@ const Navigation = (props) => {
     <div>
       <Navbar color="primary" dark expand="md">
         <Link href="/">
-          <NavbarBrand><img className="py-1" src="http://via.placeholder.com/25x25" alt=""></img> React Ventures</NavbarBrand>
+          <a className="hover-er"><NavbarBrand><img className="py-1" src="http://via.placeholder.com/25x25" alt=""></img> React Ventures</NavbarBrand></a>
         </Link>
       </Navbar>
     </div>
