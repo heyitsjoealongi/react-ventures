@@ -1,6 +1,8 @@
+/* Framework */
 import Link from "next/link";
-
 import React, { useState } from "react";
+
+/* Components */
 import { Navbar, NavbarBrand } from "reactstrap";
 
 /* SVG */

@@ -5,7 +5,11 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 /* Components */
+<<<<<<< HEAD
 import Loader from "../utilities/loader/Loader";
+=======
+import Loader from "../components/Loader";
+>>>>>>> 50f31bd (v1.0.9)
 import Meta from "../components/Meta";
 import Navigation from "../components/Navigation";
 import Sidegation from "../components/Sidegation";
