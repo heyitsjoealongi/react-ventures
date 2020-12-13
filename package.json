@@ -1,7 +1,6 @@
 {
   "name": "react-ventures",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.3",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -20,5 +19,21 @@
   },
   "devDependencies": {
     "prettier": "2.1.2"
-  }
+  },
+  "image": "![React Ventures Banner](https://raw.githubusercontent.com/collectedview/react-ventures/master/public/brand-placeholder.png)",
+  "description": "React Ventures for building applications in React.js with Bootstrap utilizing the Next.js framework (Vercel) for simplified Node.js configuration available by Open Source.",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collectedview/react-ventures.git"
+  },
+  "author": "Joe Alongi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/collectedview/react-ventures/issues"
+  },
+  "homepage": "https://github.com/collectedview/react-ventures#readme",
+  "keywords": [
+    "react", "next", "javascript", "css", "boilerplate", "web"
+  ]
 }
