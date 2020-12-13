@@ -16,7 +16,7 @@
     text-decoration: none;
 }
 
-Navbar a:hover {
+.navbar a:hover {
     text-decoration: none;
 }
 
@@ -55,15 +55,26 @@ Navbar a:hover {
     }
 }
 
-/* Universal */
+/* Button */
 
-::selection {
-    background: #0062E6; /* 10% Darker Than Primary */
-}
-::-moz-selection {
-    background: #0062E6; /* 10% Darker Than Primary */
+.hover-ing a {
+    font-weight: 600;
+    text-transform: lowercase;
+    border: 1px solid;
+    padding: 10px;
+    width: 100%;
+    display: block;
+    transition: background-color 0.5s ease;
 }
 
-a:hover{
+.hover-ing a:hover {
+    color: #ffffff;
+    background-color: #007bff; /* Primary */
+    padding: 10px;
+    border-radius: 1px;
     text-decoration: none;
+}
+
+.hover-ing span {
+    text-decoration: underline;
 }

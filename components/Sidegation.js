@@ -5,7 +5,7 @@ function Sidegation() {
     <ul className="list-unstyled">
         <li>
             <Link href="/team">
-                <a className="hover-est">👻 <span>Team</span></a>
+                <a className="hover-est">🦄 <span>Team</span></a>
             </Link>
         </li>
         <li>

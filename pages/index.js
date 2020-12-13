@@ -5,7 +5,7 @@ import Navigation from '../components/Navigation'
 import Sidegation from '../components/Sidegation'
 
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
-import '../styles/home.css';
+import '../styles/main.css';
 import '../styles/utilities.css';
 
 export default function Home() {
