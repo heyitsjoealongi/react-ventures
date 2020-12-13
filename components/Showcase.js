@@ -5,7 +5,7 @@ import {
   CardTitle, CardSubtitle, Button
 } from 'reactstrap';
 
-const Example = (props) => {
+const Showcase = (props) => {
   return (
     <div>
       <Card>
@@ -21,4 +21,4 @@ const Example = (props) => {
   );
 };
 
-export default Example;
+export default Showcase;

@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import Link from 'next/link'
 
-import {
-  Navbar,
-  NavbarBrand,
-} from 'reactstrap';
+import React, { useState } from 'react';
+import { Navbar, NavbarBrand } from 'reactstrap';
 
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +11,9 @@ const Navigation = (props) => {
   return (
     <div>
       <Navbar color="primary" dark expand="md">
-        <NavbarBrand href="/"><img className="py-1" src="http://via.placeholder.com/25x25" alt=""></img> React Ventures</NavbarBrand>
+        <Link href="/">
+          <NavbarBrand><img className="py-1" src="http://via.placeholder.com/25x25" alt=""></img> React Ventures</NavbarBrand>
+        </Link>
       </Navbar>
     </div>
   );
