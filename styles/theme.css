@@ -12,7 +12,7 @@
 .icon {
     height: 25px;
     width: 25px;
-    fill: #ffffff;
+    fill: #fff;
     -webkit-animation-name: spin;
     -webkit-animation-duration: 4000ms;
     -webkit-animation-iteration-count: infinite;
@@ -60,18 +60,16 @@
 
 .hover-er a {
     font-weight: 600;
-    text-transform: lowercase;
-    padding: 10px;
+    text-transform: initial;
+    padding: .6em;
     width: 100%;
     display: block;
     transition: background-color 0.5s ease;
 }
 
 .hover-er a:hover {
-    color: #ffffff;
+    color: #fff;
     background-color: #0062E6; /* 10% Darker Than Primary */
-    padding: 10px;
-    border-radius: 1px;
     text-decoration: none;
 }
 
@@ -89,17 +87,15 @@
 }
 .hover-ist a{
     font-weight: 600;
-    text-transform: lowercase;
-    padding: 10px;
+    text-transform: initial;
+    padding: .6em;
     width: 100%;
     display: block;
     transition: background-color 0.5s ease;
 }
 .hover-ist a:hover {
-    color: #ffffff;
+    color: #fff;
     background-color: #007bff; /* Primary */
-    padding: 10px;
-    border-radius: 1px;
     text-decoration: none;
 }
 .hover-ist span {
@@ -119,19 +115,18 @@
 
 .hover-ing a {
     font-weight: 600;
-    text-transform: lowercase;
-    border: 1px solid;
-    padding: 10px;
+    text-transform: initial;
+    border: 1px solid #007bff; /* Primary */
+    padding: .6em;
     width: 100%;
     display: block;
     transition: background-color 0.5s ease;
 }
 
 .hover-ing a:hover {
-    color: #ffffff;
+    color: #fff;
+    border: 1px solid #007bff; /* Primary */
     background-color: #007bff; /* Primary */
-    padding: 10px;
-    border-radius: 1px;
     text-decoration: none;
 }
 
@@ -143,4 +138,48 @@
 
 .portfolio{
     border-top: 1px solid #000;
+}
+
+.cards {
+    border: 1px solid #007bff; /* Primary */
+    margin: .6em;
+    border-radius: 0!important;
+}
+
+.cards h4{
+    color: #000;
+}
+
+.cards .sub-one {
+    font-size: .6em;
+    width: 100px;
+    padding: .6em;
+    text-align: center;
+    color: #fff;
+    background-color: #5a6268; /* Secondary */
+    display: block;
+    float: left;
+}
+
+.cards .clicking {
+    color: #007bff; /* Primary */
+    background-color: #fff;
+    font-weight: 600;
+    text-transform: initial;
+    text-align: left;
+    border: 1px solid #007bff; /* Primary */
+    border-radius: 0!important;
+    padding: .6em;
+    width: 100%;
+    display: block;
+    transition: background-color 0.5s ease;
+}
+.cards .clicking:hover {
+    color: #fff;
+    border: 1px solid #007bff; /* Primary */
+    background-color: #007bff; /* Primary */
+    text-decoration: none;
+}
+.cards .clicking span {
+    text-decoration: underline;
 }

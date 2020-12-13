@@ -18,6 +18,11 @@
     font-weight: 600;
 }
 
+.card-img, .card-img-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
 /* Global */
 
 ::selection {
