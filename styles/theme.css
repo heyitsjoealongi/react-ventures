@@ -1,4 +1,4 @@
-/* Brand */
+/* React Ventures Styles */
 
 .company {
   height: 150px;
@@ -206,4 +206,30 @@ main {
 
 .hero .title {
   color: #fff;
+}
+
+/* Footer */
+.btn,
+.nav-link {
+  color: #007bff !important;
+  background-color: transparent !important;
+  border-color: #007bff !important;
+}
+
+/* Footer */
+
+.footer {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  padding: 25px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer img {
+  display: block;
+  margin: 0 auto;
 }

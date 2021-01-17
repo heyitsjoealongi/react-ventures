@@ -1,5 +1,7 @@
 /* Framework */
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 /* Bootstrap Components */
 import { Container, Row, Col } from "reactstrap";
@@ -44,6 +46,22 @@ export default function Home() {
 
             <Col lg={{ size: 3 }} className="hover-ist">
               <Sidegation />
+            </Col>
+          </Row>
+        </Container>
+        <Container fluid="true" className="footer">
+          <Row>
+            <Col md="12">
+              <Link href="https://collectedview.io/">
+                <a target="blank_">
+                  <Image
+                    height={50}
+                    width={200}
+                    src="/collectedview-software-studio.png"
+                    alt="Collectedview Software Studio"
+                  />
+                </a>
+              </Link>
             </Col>
           </Row>
         </Container>

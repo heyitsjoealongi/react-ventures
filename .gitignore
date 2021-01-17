@@ -1,4 +1,4 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Collectedview - Git Ignore // See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
@@ -16,10 +16,15 @@
 /build
 
 # misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 yarn.lock
 package-lock.json
-.prettierignore
-.DS_Store
+.eslintcache
+prepros.config
 
 # debug
 npm-debug.log*
@@ -31,3 +36,9 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# firebase
+/firebase
+.firebase
+.firebaserc
+firebase.json
