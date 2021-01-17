@@ -2,7 +2,7 @@
 
 # React Ventures
 
-![Version](https://img.shields.io/badge/version-1.1.3-blue.svg?cacheSeconds=2592000) [![License: MIT ](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/collectedview/react-ventures/blob/master/LICENSE) ![GitHub stars](https://img.shields.io/github/stars/collectedview/react-ventures?style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/collectedview?label=Follow&style=social)
+![Version](https://img.shields.io/badge/version-1.2.4-blue.svg?cacheSeconds=2592000) [![License: MIT ](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/collectedview/react-ventures/blob/master/LICENSE) ![GitHub stars](https://img.shields.io/github/stars/collectedview/react-ventures?style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/collectedview?label=Follow&style=social)
 
 React Ventures for building applications in React.js with Bootstrap utilizing the [Next.js](https://vercel.com/) framework (Vercel) for simplified [Node.js](https://nodejs.org/en/) configuration available by [Open Source](https://opensource.org/).
 
@@ -23,7 +23,7 @@ Server-side rendered functionality of lifecycles through React in a UI framework
 
 React Ventures is a template for React & Next.js utilizing frameworks for quickly iterating and developing applications with Bootstrap and JSX.
 
-- Website: [collectedview.xyz](https://collectedview.xyz)
+- Website: [collectedview.io](https://collectedview.io)
 - Twitter: [@collectedview](https://twitter.com/collectedview)
 - GitHub: [@collectedview](https://github.com/collectedview)
 - LinkedIn: [@collectedview](https://www.linkedin.com/in/collectedview)
@@ -44,10 +44,10 @@ React Ventures is built with modern frontend frameworks and adapts to screen siz
 This project runs on Node.js while the DOM UI elements are established using React.js with modules from Bootstrap, Reactstrap while working within the Next.js framework.
 
 - React (v17.0.1)
-- Next (v10.0.0)
-- Node (v15.0.0)
-- Bootstrap (v4.5.2)
-- Reactstrap (v8.6.0)
+- Next (v10.2.3)
+- Node (v15.12.0)
+- Bootstrap (v5.0.0)
+- Reactstrap (v8.9.0)
 
 ### Installation
 
@@ -116,12 +116,12 @@ Having an issue with the template? Report bugs & issues with Purple on GitHub vi
 - [Bootstrap](https://getbootstrap.com/)
 - [Reactstrap](https://reactstrap.github.io/)
 - [SVGR](https://www.npmjs.com/package/@svgr/webpack)
-- [Next-CSS](https://www.npmjs.com/package/@zeit/next-css)
 
 ##### Additional Acknowledgments
 
 - [Prettier](https://prettier.io/)
+- [ESLint](https://eslint.org/)
 
 ##### License
 
-© 2020 React Ventures released via [MIT](https://opensource.org/licenses/MIT) license. Information on this license can be viewed as it applies to this repository on GitHub at [React Ventures License](https://github.com/collectedview/react-ventures/blob/master/LICENSE).
+© 2021 React Ventures released via [MIT](https://opensource.org/licenses/MIT) license. Information on this license can be viewed as it applies to this repository on GitHub at [React Ventures License](https://github.com/collectedview/react-ventures/blob/master/LICENSE).
