@@ -1,6 +1,6 @@
 {
   "name": "react-ventures",
-  "version": "1.1.5",
+  "version": "1.1.7",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,10 +10,10 @@
     "@popperjs/core": "^2.5.4",
     "@svgr/webpack": "^5.4.0",
     "bootstrap": "^4.5.3",
-    "next": "10.0.5",
+    "next": "10.0.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-loader-spinner": "^3.1.14",
+    "react-loader-spinner": "^4.0.0",
     "reactstrap": "^8.7.0",
     "use-dark-mode": "^2.3.1"
   },
