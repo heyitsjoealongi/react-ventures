@@ -200,7 +200,11 @@ main {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to bottom, #acacac, #007bff);
+  background-image: linear-gradient(
+    to bottom,
+    #5a6268,
+    #007bff
+  ); /* Secondary -> Primary */
   opacity: 0.6;
 }
 
@@ -211,9 +215,9 @@ main {
 /* Footer */
 .btn,
 .nav-link {
-  color: #007bff !important;
+  color: #007bff !important; /* Primary */
   background-color: transparent !important;
-  border-color: #007bff !important;
+  border-color: #007bff !important; /* Primary */
 }
 
 /* Footer */
