@@ -2,7 +2,7 @@
 
 # React Ventures
 
-![Version](https://img.shields.io/badge/version-1.2.1-blue.svg?cacheSeconds=2592000) [![License: MIT ](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/collectedview/react-ventures/blob/master/LICENSE) ![GitHub stars](https://img.shields.io/github/stars/collectedview/react-ventures?style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/collectedview?label=Follow&style=social)
+![Version](https://img.shields.io/badge/version-1.2.2-blue.svg?cacheSeconds=2592000) [![License: MIT ](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/collectedview/react-ventures/blob/master/LICENSE) ![GitHub stars](https://img.shields.io/github/stars/collectedview/react-ventures?style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/collectedview?label=Follow&style=social)
 
 React Ventures for building applications in React.js with Bootstrap utilizing the [Next.js](https://vercel.com/) framework (Vercel) for simplified [Node.js](https://nodejs.org/en/) configuration available by [Open Source](https://opensource.org/).
 
@@ -124,4 +124,4 @@ Having an issue with the template? Report bugs & issues with Purple on GitHub vi
 
 ##### License
 
-© 2020 React Ventures released via [MIT](https://opensource.org/licenses/MIT) license. Information on this license can be viewed as it applies to this repository on GitHub at [React Ventures License](https://github.com/collectedview/react-ventures/blob/master/LICENSE).
+© 2021 React Ventures released via [MIT](https://opensource.org/licenses/MIT) license. Information on this license can be viewed as it applies to this repository on GitHub at [React Ventures License](https://github.com/collectedview/react-ventures/blob/master/LICENSE).
