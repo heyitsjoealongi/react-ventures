@@ -57,15 +57,15 @@ main {
   font-weight: 600;
   text-transform: initial;
   padding: 0.6em 0.9em;
-  margin: 0.3em 0.6em;
-  width: 100%;
-  height: auto;
+  margin: 0.5rem 1rem;
   transition: background-color 0.5s ease;
 }
 
 .hover-er a svg {
   flex: 1;
   display: inline-block;
+  height: 30px;
+  width: 100%;
   padding: 0 0.3em 0 0;
 }
 
