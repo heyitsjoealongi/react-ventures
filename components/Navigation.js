@@ -1,5 +1,5 @@
 /* Framework */
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,11 +7,7 @@ import Link from "next/link";
 import { Navbar, NavbarBrand } from "reactstrap";
 import DarkMode from "../utilities/darkmode/DarkMode";
 
-const Navigation = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
-
+const Navigation = () => {
   return (
     <div>
       <Navbar color="primary" dark expand="md">

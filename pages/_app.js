@@ -9,6 +9,7 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import "../styles/theme.css";
 import "../styles/utilities.css";
 
+// eslint-disable-next-line react/prop-types
 export default function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }

@@ -10,21 +10,24 @@ import Navigation from "../components/Navigation";
 import Buttons from "../components/Buttons";
 
 class Contact extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor(data) {
+    super(data);
     this.state = {
       links: [
         {
+          id: "0",
           emoji: "🔗",
           title: "LinkedIn",
           link: "/",
         },
         {
+          id: "2",
           emoji: "🔗",
           title: "Twitter",
           link: "/",
         },
         {
+          id: "3",
           emoji: "🔗",
           title: "Email",
           link: "/",
@@ -54,6 +57,7 @@ class Contact extends React.Component {
               <Col lg={{ size: 9 }}>
                 {links.map((data) => (
                   <Buttons
+                    key={data.id}
                     emoji={data.emoji}
                     title={data.title}
                     link={data.link}

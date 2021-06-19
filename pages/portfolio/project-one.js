@@ -11,17 +11,19 @@ import Headers from "../../components/portfolio/Headers";
 import ProjectContent from "../../components/portfolio/ProjectContent";
 
 class ProjectOne extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor(data) {
+    super(data);
     this.state = {
       content: [
         {
+          id: "0",
           image: "/brand-placeholder.png",
           title: "Project One",
         },
       ],
       body: [
         {
+          id: "0",
           heading: "Lorem duis ipsum irure",
           paragraph_one:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -43,7 +45,7 @@ class ProjectOne extends React.Component {
         <Navigation />
         <Container fluid>
           {content.map((data) => (
-            <Headers image={data.image} title={data.title} />
+            <Headers key={data.id} image={data.image} title={data.title} />
           ))}
         </Container>
 
@@ -53,6 +55,7 @@ class ProjectOne extends React.Component {
               <Col lg={{ size: 12 }} className="content">
                 {body.map((data) => (
                   <ProjectContent
+                    key={data.id}
                     heading={data.heading}
                     paragraph_one={data.paragraph_one}
                     paragraph_two={data.paragraph_two}
