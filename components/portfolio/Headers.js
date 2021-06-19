@@ -1,6 +1,5 @@
 /* Framework */
 import React from "react";
-import Image from "next/image";
 
 /* Bootstrap Components */
 import { Row, Col, Jumbotron } from "reactstrap";

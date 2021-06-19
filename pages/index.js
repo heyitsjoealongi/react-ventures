@@ -12,9 +12,6 @@ import Meta from "../components/Meta";
 import Navigation from "../components/Navigation";
 import Sidegation from "../components/Sidegation";
 
-/* SVG */
-import Brand from "../public/brand.svg";
-
 export default function Home() {
   return (
     <>
@@ -27,7 +24,14 @@ export default function Home() {
         <Container className="py-5 my-5">
           <Row noGutters className="v-align">
             <Col lg={{ size: 9 }}>
-              <Brand className="py-1 my-1 company" />
+              <Image
+                src="/brand.svg"
+                className="company"
+                alt="Brand Logo"
+                width={125}
+                height={125}
+                loading="lazy"
+              />
               <h1 className="display-3 py-2">React Ventures</h1>
               <p className="lead">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

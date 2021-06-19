@@ -1,13 +1,11 @@
 /* Framework */
-import Link from "next/link";
 import React, { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 /* Components */
 import { Navbar, NavbarBrand } from "reactstrap";
 import DarkMode from "../utilities/darkmode/DarkMode";
-
-/* SVG */
-import Brand from "../public/brand.svg";
 
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +18,15 @@ const Navigation = (props) => {
         <Link href="/">
           <a className="hover-er">
             <NavbarBrand>
-              <Brand className="icon" /> <span>React Ventures</span>
+              <Image
+                src="/brand-icon.svg"
+                className="icon"
+                alt="Brand Icon"
+                width={25}
+                height={25}
+                loading="lazy"
+              />
+              <span>React Ventures</span>
             </NavbarBrand>
           </a>
         </Link>
