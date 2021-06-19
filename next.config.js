@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 module.exports = {
   i18n: {
     locales: ["en"],
@@ -27,16 +26,5 @@ module.exports = {
         permanent: true,
       },
     ];
-  },
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/,
-      issuer: {
-        test: /\.(js|ts)x?$/,
-      },
-      use: ["@svgr/webpack"],
-    });
-
-    return config;
   },
 };
