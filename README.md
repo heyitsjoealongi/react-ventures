@@ -2,7 +2,7 @@
 
 # React Ventures
 
-![Version](https://img.shields.io/badge/version-1.2.6-blue.svg?cacheSeconds=2592000) [![License: MIT ](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/collectedview/react-ventures/blob/master/LICENSE) ![GitHub stars](https://img.shields.io/github/stars/collectedview/react-ventures?style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/collectedview?label=Follow&style=social)
+![Version](https://img.shields.io/badge/version-1.3.0-blue.svg?cacheSeconds=2592000) [![License: MIT ](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/collectedview/react-ventures/blob/master/LICENSE) ![GitHub stars](https://img.shields.io/github/stars/collectedview/react-ventures?style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/collectedview?label=Follow&style=social)
 
 React Ventures for building applications in React.js with Bootstrap utilizing the [Next.js](https://vercel.com/) framework (Vercel) for simplified [Node.js](https://nodejs.org/en/) configuration available by [Open Source](https://opensource.org/).
 
@@ -108,7 +108,7 @@ Configure your deploy branch, settings, and domain within [Vercel](https://verce
 
 ##### Bugs and Issues
 
-Having an issue with the template? Report bugs & issues with Purple on GitHub via [Issues](https://github.com/collectedview/react-ventures/issues). Fork, Pull, or Send an email over to join as a contributor! Join in on the open source conversation on [Twitter](https://twitter.com/collectedview).
+Having an issue with the template? Report bugs & issues with React Ventures on GitHub via [Issues](https://github.com/collectedview/react-ventures/issues). Fork, Pull, or Send an email over to join as a contributor! Join in on the open source conversation on [Twitter](https://twitter.com/collectedview).
 
 ##### Acknowledgments
 
